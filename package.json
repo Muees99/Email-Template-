@@ -1,0 +1,21 @@
+{
+  "name": "email-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "mjml --watch src/index.mjml --output src/index.html",
+    "build": "mjml src/index.mjml --output src/index.html",
+    "server": "live-server --host=localhost --open=src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.14.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "live-server": "^1.2.2"
+  },
+  "description": ""
+}
